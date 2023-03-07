@@ -1,0 +1,154 @@
+.community {
+  background-color: #162758;
+  padding: 60px 0 100px;
+  position: relative;
+}
+
+.community__wrapper {
+  z-index: 2;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.community h2 {
+ font-size: 50px;
+ line-height: 60px;
+ font-weight: 600;
+ margin-bottom: 110px;
+ text-align: center;
+}
+
+.community__social {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 80px;
+  flex-wrap: wrap;
+}
+
+.community__social svg {
+  max-width: 108px;
+  width: 100%;
+}
+
+.community__social svg rect {
+  transition: .5s;
+}
+
+.community__social svg:hover rect {
+  fill: var(--dark-red);
+}
+
+
+.community__shiba {
+  max-width: 256px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.community__label {
+  border-radius: 50px;
+  max-width: 700px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 22px 36px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+}
+
+.community__label span {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.community__label input {
+  background-color: transparent;
+  font-size: 25px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.community__label__string {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.community__label__string i {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.community__map {
+  width: 100%;
+  max-width: 1144px;
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  opacity: .1;
+}
+
+@media(max-width: 1325px) {
+  .community__label__string  {
+      justify-content: center;
+      margin-bottom: 30px;
+  }
+}
+
+@media(max-width: 870px) {
+  .community__social {
+      column-gap: 30px;
+      justify-content: center;
+  }
+
+  .community__social svg {
+      max-height: 30px;
+      width: 100%;
+  }
+
+  .community__label span {
+      text-align: center;
+  }
+}
+
+@media(max-width: 720px) {
+  .community__label {
+      width: 100%;
+      padding: 15px 15px;
+  }
+
+  .community__label input {
+      font-size: 16px;
+      text-align: center;
+  }
+}
+
+@media(max-width: 514px) {
+
+  .community__label input {
+      font-size: 12px;
+  }
+
+  .community {
+      padding: 25px 0 30px;
+  }
+
+  .community h2 {
+      margin-bottom: 15px;
+  }
+}
+
+@media(max-width: 422px) {
+  .community__label input {
+      font-size: 10px;
+  }
+}

@@ -1,0 +1,22 @@
+// базовые подключения
+@import "vars";
+@import "settings";
+
+// подключения компонентов страницы
+@import "./components/header";
+
+@import "./components/hero";
+@import "./components/_marquee";
+@import "./components/spider-web";
+@import "./components/how-it-works";
+@import "./components/play-to-earn";
+@import "./components/invest";
+@import "./components/roadmap";
+@import "./components/team";
+@import "./components/tokenomics";
+@import "./components/faq";
+@import "./components/community";
+
+@import "./components/footer";
+
+

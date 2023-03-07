@@ -1,0 +1,52 @@
+body,
+input,
+button {
+  text-rendering: optimizeSpeed;
+  color: var(--white);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  box-shadow: none;
+}
+
+.page {
+  height: 100%;
+  font-family: var(--font-family, sans-serif);
+  -webkit-text-size-adjust: 100%;
+  background-color: #101932;
+  scroll-behavior: smooth;
+}
+
+.page__body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100%;
+  font-size: 16px;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 var(--container-offset);
+  max-width: var(--container-width);
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+img {
+  display: block;
+}
+
+input,
+textarea {
+  outline: none;
+  border: none;
+}

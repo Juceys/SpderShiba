@@ -1,0 +1,137 @@
+.tokenomics {
+  background-color: #101D3F;
+  padding: 30px 0 130px;
+}
+
+.tokenomics__section h2 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.tokenomics__blocks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tokenomics__list-block {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 444px;
+  margin-top: 92px;
+}
+
+.tokenomics__list {
+  padding: 25px 52px 20px 30px;
+  background: rgba(0, 0, 0, .3);
+  border-radius: 15px;
+}
+
+.tokenomics__list h3 {
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 32px;
+  margin-bottom: 5px;
+}
+
+.tokenomics__list p {
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, .3);
+}
+
+.tokenomics__circle-block {
+  margin-top: 66px;
+  width: 33%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tokenomics__circle-block img {
+  position: absolute;
+  width: 100%;
+  max-width: 193px;
+}
+
+.tokenomics__list_borders {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.tokenomics__list_borders span {
+  height: 3px;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.tokenomics__list_borders span.orange {
+  background-color: #FF850B;
+
+}
+
+.tokenomics__list_borders span.purple {
+  background-color: #663090;
+}
+
+.tokenomics__list_borders span.lilac {
+  background-color: #4E00FF;
+}
+
+.tokenomics__list_borders span.turquoise {
+  background-color: #1DBEE1;
+}
+
+.tokenomics__list_borders span.darkblue {
+  background-color: #133D81;
+}
+
+.tokenomics__list_borders span.red {
+  background-color: #FF0000;
+}
+
+.tokenomics__list_borders span.blue {
+  background-color: #0096F2;
+}
+
+@media(max-width: 1325px) {
+  .tokenomics__blocks {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+  }
+
+
+.tokenomics__circle-block {
+  order: 1;
+  width: 48%;
+  }
+
+  .tokenomics__list-block {
+      margin-top: 0;
+      order: 2;
+  }
+}
+
+@media(max-width: 720px) {
+  .tokenomics__circle-block img {
+      max-width: 116px;
+  }
+
+  .tokenomics__circle-block {
+      width: 55%;
+      }
+}
+
+@media(max-width: 514px) {
+  .tokenomics__circle-block {
+      width: 67%;
+  }
+
+  .tokenomics {
+      padding: 25px 0;
+  }
+}

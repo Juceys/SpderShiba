@@ -1,0 +1,22 @@
+.footer {
+  border-color: #0D1428;
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer p {
+  font-size: 20px;
+  line-height: 24px;
+  opacity: .4;
+}
+
+@media(max-width: 514px) {
+  .footer {
+      padding: 20px 0;
+  }
+
+  .footer p {
+      text-align: center;
+  }
+}
